@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "395339851134",
+    "project_id": "merotask-1213c",
+    "storage_bucket": "merotask-1213c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395339851134:android:33bb19fe2a776563983f2f",
+        "android_client_info": {
+          "package_name": "com.example.merotask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395339851134-1hioaimkcq1unuipnlmoor25bv21ntmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsUR3riceEea7m2Jbepg2Mqh9rLMvOdQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395339851134-1hioaimkcq1unuipnlmoor25bv21ntmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

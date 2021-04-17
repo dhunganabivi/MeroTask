@@ -1,0 +1,98 @@
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <EditText
+        android:id="@+id/saveTask_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="save task"/>
+
+    <Button
+        android:id="@+id/saveButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="save"
+        android:layout_below="@+id/saveTask_id"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:textColorHint="@color/black"
+        />
+</RelativeLayout>
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new task list"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <EditText
+            android:id="@+id/Enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a task"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cancel"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/ok_btn"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ok"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
